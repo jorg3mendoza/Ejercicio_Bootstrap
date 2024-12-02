@@ -1,0 +1,40 @@
+:root {
+    --bg-color: #d3a7cb;
+    --primary-color: #ff5c89;
+    --secondary-color: #74e6ff;
+    --hg-color: #fbd425;
+    background-color: var(--bg-color);
+    color: var(--hg-color);
+    width: 100vw;
+    height: 500vh;
+    margin: 0;
+
+}
+
+.Carrusel{
+    border: 25px solid var(--bg-color);
+}
+
+.container.border{
+    background-color: var(--bg-color);
+}
+
+.row{
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.col-sm{
+    text-align: center;
+}
+
+.card{
+    background-color: var(--secondary-color);
+}
+
+
+
+
+h2{
+    background-color: var(--secondary-color);
+}
